@@ -89,7 +89,10 @@ bot.on('end', function () {
         host: host,      
         username: username
     });
-    console.log("reconnected.")
+   
+  if(bot){
+     console.log("reconnected.")
+  }
 });
 const express = require("express")
 const app = express()
