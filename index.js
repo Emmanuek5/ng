@@ -30,7 +30,7 @@ bot.loadPlugin(cmd)
 
 bot.on('login', function() {
   console.log("Logged In")
-  bot.chat("andrew");
+  bot.chat("/register andrew andrew");
 
 });
 
